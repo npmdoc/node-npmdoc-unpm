@@ -1,4 +1,7 @@
-# api documentation for  [unpm (v1.5.0)](https://github.com/hayes/unpm)  [![npm package](https://img.shields.io/npm/v/npmdoc-unpm.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-unpm) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-unpm.svg)](https://travis-ci.org/npmdoc/node-npmdoc-unpm)
+# npmdoc-unpm
+
+#### api documentation for  [unpm (v1.5.0)](https://github.com/hayes/unpm)  [![npm package](https://img.shields.io/npm/v/npmdoc-unpm.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-unpm) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-unpm.svg)](https://travis-ci.org/npmdoc/node-npmdoc-unpm)
+
 #### private npm registry in node
 
 [![NPM](https://nodei.co/npm/unpm.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/unpm)
