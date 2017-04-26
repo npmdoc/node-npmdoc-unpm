@@ -63,17 +63,8 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.unpm">
-            function <span class="apidocSignatureSpan"></span>unpm
-            <span class="apidocSignatureSpan">(config, User, backend)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.cidr">
-            function <span class="apidocSignatureSpan">unpm.</span>cidr
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.Package">
+            function <span class="apidocSignatureSpan">unpm.</span>Package
             <span class="apidocSignatureSpan">(unpm)</span>
             </a>
 
@@ -81,57 +72,24 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.config">
-            function <span class="apidocSignatureSpan">unpm.</span>config
-            <span class="apidocSignatureSpan">(config)</span>
-            </a>
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">unpm.</span>Package.prototype</span>
 
         </li>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.handler">
-            function <span class="apidocSignatureSpan">unpm.</span>handler
-            <span class="apidocSignatureSpan">(unpm)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.logging">
-            function <span class="apidocSignatureSpan">unpm.</span>logging
-            <span class="apidocSignatureSpan">(config)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.middleware">
-            function <span class="apidocSignatureSpan">unpm.</span>middleware
-            <span class="apidocSignatureSpan">(middleware, respond, route, unpm, done)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.toString">
-            function <span class="apidocSignatureSpan">unpm.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">unpm.</span>unpublish</span>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.unpm.cidr">module unpm.cidr</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.unpm.Package">module unpm.Package</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.cidr.cidr">
-            function <span class="apidocSignatureSpan">unpm.</span>cidr
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.Package.Package">
+            function <span class="apidocSignatureSpan">unpm.</span>Package
             <span class="apidocSignatureSpan">(unpm)</span>
             </a>
 
@@ -139,65 +97,98 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.unpm.config">module unpm.config</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.unpm.Package.prototype">module unpm.Package.prototype</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.config.config">
-            function <span class="apidocSignatureSpan">unpm.</span>config
-            <span class="apidocSignatureSpan">(config)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.Package.prototype._setMeta">
+            function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>_setMeta
+            <span class="apidocSignatureSpan">(name, meta, done)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.Package.prototype.getVersionMeta">
+            function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>getVersionMeta
+            <span class="apidocSignatureSpan">(name, version, done)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.Package.prototype.getVersions">
+            function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>getVersions
+            <span class="apidocSignatureSpan">(name, done)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.Package.prototype.publish">
+            function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>publish
+            <span class="apidocSignatureSpan">(meta, done)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.Package.prototype.remove">
+            function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>remove
+            <span class="apidocSignatureSpan">(name, done)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.Package.prototype.removeVersion">
+            function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>removeVersion
+            <span class="apidocSignatureSpan">(name, version, done)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.Package.prototype.saveMeta">
+            function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>saveMeta
+            <span class="apidocSignatureSpan">(name, version, tags, meta, done)</span>
             </a>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.unpm.handler">module unpm.handler</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.unpm.unpublish">module unpm.unpublish</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.handler.handler">
-            function <span class="apidocSignatureSpan">unpm.</span>handler
-            <span class="apidocSignatureSpan">(unpm)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.unpublish.all">
+            function <span class="apidocSignatureSpan">unpm.unpublish.</span>all
+            <span class="apidocSignatureSpan">(respond, route, unpm)</span>
             </a>
 
         </li>
 
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.unpm.logging">module unpm.logging</a><ol>
-
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.logging.logging">
-            function <span class="apidocSignatureSpan">unpm.</span>logging
-            <span class="apidocSignatureSpan">(config)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.unpublish.some">
+            function <span class="apidocSignatureSpan">unpm.unpublish.</span>some
+            <span class="apidocSignatureSpan">(respond, route, unpm)</span>
             </a>
 
         </li>
 
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.unpm.middleware">module unpm.middleware</a><ol>
-
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.middleware.middleware">
-            function <span class="apidocSignatureSpan">unpm.</span>middleware
-            <span class="apidocSignatureSpan">(middleware, respond, route, unpm, done)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.unpm.toString">module unpm.toString</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.unpm.toString.toString">
-            function <span class="apidocSignatureSpan">unpm.</span>toString
-            <span class="apidocSignatureSpan">()</span>
+            <a class="apidocElementLiA" href="#apidoc.element.unpm.unpublish.tarball">
+            function <span class="apidocSignatureSpan">unpm.unpublish.</span>tarball
+            <span class="apidocSignatureSpan">(respond, route, unpm)</span>
             </a>
 
         </li>
@@ -211,230 +202,20 @@
 
 
     <h2>
-        <a href="#apidoc.element.unpm.unpm" id="apidoc.element.unpm.unpm">
-        function <span class="apidocSignatureSpan"></span>unpm
-        <span class="apidocSignatureSpan">(config, User, backend)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function unpm(config, User, backend) {
-  if(!(this instanceof unpm)) {
-    return new unpm(config, User, backend)
-  }
-
-  config = add_defaults(config)
-  this.router = Router(config.basePathname)
-  this.handler = handler(this)
-  this.server = http.createServer(this.handler)
-  this.log = logging(config)
-  this.port = config.port || 8123
-  this.config = config
-  this.middleware = []
-  this.backend = Object.create(config.backend || {})
-
-  if(backend) {
-    config.backend = backend
-  }
-
-  if(User) {
-    config.User = User
-  }
-
-  this.Package = Package(this)
-  auth(this, config.User)
-  cidr(this)
-
-  this.router.add(&#x27;PUT&#x27;, &#x27;/:name&#x27;, controllers.publish)
-  this.router.add(&#x27;GET&#x27;, &#x27;/:name/-/:name/:version.tgz&#x27;, controllers.getTarball)
-  this.router.add(&#x27;GET&#x27;, &#x27;/:name/:version?&#x27;, controllers.getPackage)
-  this.router.add(&#x27;PUT&#x27;, &#x27;/:name/-rev/:rev?&#x27;, controllers.unpublish.some)
-  this.router.add(&#x27;DELETE&#x27;, &#x27;/:name/-rev/:rev?&#x27;, controllers.unpublish.all)
-  this.router.add(&#x27;DELETE&#x27;, &#x27;/:name/-/:file/-rev/:rev&#x27;, controllers.unpublish.tarball)
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.unpm.cidr" id="apidoc.element.unpm.cidr">
-        function <span class="apidocSignatureSpan">unpm.</span>cidr
+        <a href="#apidoc.element.unpm.Package" id="apidoc.element.unpm.Package">
+        function <span class="apidocSignatureSpan">unpm.</span>Package
         <span class="apidocSignatureSpan">(unpm)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function setup(unpm) {
-  if(unpm.config.cidr) {
-    unpm.middleware.push(check)
+    <li>description and source-code<pre class="apidocCodePre">function Package(unpm) {
+  if(!(this instanceof Package)) {
+    return new Package(unpm)
   }
 
-  function check(respond, route, unpm, done) {
-    var ip = respond.req.connection.remoteAddress
-    var allowed =  cidrCheck.in_range(ip, unpm.config.cidr)
-
-    if(allowed) {
-      return done()
-    }
-
-    unpm.log.info({ip: ip, message: &#x27;IP out of CIDR range&#x27;})
-
-    respond.res.writeHead(403, {
-      &#x27;Content-Type&#x27;: &#x27;application/json&#x27;
-    })
-
-    respond.res.end(JSON.stringify({
-      error: &#x27;forbidden&#x27;,
-      reason: &#x27;invalid ip&#x27;
-    }))
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.unpm.config" id="apidoc.element.unpm.config">
-        function <span class="apidocSignatureSpan">unpm.</span>config
-        <span class="apidocSignatureSpan">(config)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">config = function (config) {
-  if(config.configfile) {
-    add(JSON.parse(fs.readFileSync(path.join(config.configfile))))
-  }
-
-  add(JSON.parse(fs.readFileSync(path.join(__dirname, &#x27;config.json&#x27;))))
-
-  return config
-
-  function add(overrides) {
-    Object.keys(overrides).forEach(function(key) {
-      config[key] = config[key] === undefined ? overrides[key] : config[key]
-    })
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.unpm.handler" id="apidoc.element.unpm.handler">
-        function <span class="apidocSignatureSpan">unpm.</span>handler
-        <span class="apidocSignatureSpan">(unpm)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">handler = function (unpm) {
-  return function handler(req, res) {
-    var route = unpm.router.match(req) || null
-    var log = unpm.log
-
-    var respond = responder(req, res, unpm)
-
-    res.on(&#x27;finish&#x27;, function() {
-      if(req.headers.authorization) {
-        req.headers.authorization = &#x27;Basic ~~removed~~&#x27;
-      }
-
-      var info = {
-        statusCode: res.statusCode,
-        method: req.method,
-        url: req.url
-      }
-
-      log.info(info)
-      log.debug({headers: req.headers})
-    })
-
-    if(!unpm.middleware || !unpm.middleware.length) {
-      return runRoute()
-    }
-
-    runMiddleware(unpm.middleware, respond, route, unpm, runRoute)
-
-    function runRoute(err) {
-      if(err) {
-        return respond(err)
-      }
-
-      if(!route) {
-        return respond.notFound()
-      }
-
-      route.fn(respond, route, unpm)
-    }
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.unpm.logging" id="apidoc.element.unpm.logging">
-        function <span class="apidocSignatureSpan">unpm.</span>logging
-        <span class="apidocSignatureSpan">(config)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function logger(config) {
-  var bunyanOptions = {}
-  var logDir
-
-  if(!config.verbose &#x26;&#x26; !config.logDir &#x26;&#x26; !config.log) {
-    return noopLogger
-  }
-
-  bunyanOptions.name = &#x27;unpm&#x27;
-  bunyanOptions.streams = []
-
-  if(config.verbose) {
-    bunyanOptions.streams.push({
-      level: config.log || &#x27;info&#x27;,
-      stream: process.stdout
-    })
-  }
-
-  if(config.logDir || (config.log &#x26;&#x26; !config.verbose)) {
-    logDir = config.logDir || process.cwd()
-
-    bunyanOptions.streams.push({
-      level: config.log || &#x27;info&#x27;,
-      type: &#x27;rotating-file&#x27;,
-      period: &#x27;1d&#x27;,
-      count: 10,
-      path: path.join(logDir, &#x27;unpm.log&#x27;)
-    })
-  }
-
-  return bunyan.createLogger(bunyanOptions)
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.unpm.middleware" id="apidoc.element.unpm.middleware">
-        function <span class="apidocSignatureSpan">unpm.</span>middleware
-        <span class="apidocSignatureSpan">(middleware, respond, route, unpm, done)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function runMiddleware(middleware, respond, route, unpm, done) {
-  if(!middleware || !middleware.length) {
-    return done()
-  }
-
-  middleware[0](respond, route, unpm, function(err) {
-    if(err) {
-      return done(err)
-    }
-
-    runMiddleware(middleware.slice(1), respond, route, unpm, done)
+  var self = this
+  methods.forEach(function(method) {
+    self[method] = unpm.backend[method] &#x26;&#x26; unpm.backend[method].bind(unpm.backend)
   })
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -442,225 +223,30 @@
 
 
 
-    <h2>
-        <a href="#apidoc.element.unpm.toString" id="apidoc.element.unpm.toString">
-        function <span class="apidocSignatureSpan">unpm.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
+
 
 
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.unpm.cidr" id="apidoc.module.unpm.cidr">module unpm.cidr</a></h1>
+<h1><a href="#apidoc.module.unpm.Package" id="apidoc.module.unpm.Package">module unpm.Package</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.unpm.cidr.cidr" id="apidoc.element.unpm.cidr.cidr">
-        function <span class="apidocSignatureSpan">unpm.</span>cidr
+        <a href="#apidoc.element.unpm.Package.Package" id="apidoc.element.unpm.Package.Package">
+        function <span class="apidocSignatureSpan">unpm.</span>Package
         <span class="apidocSignatureSpan">(unpm)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function setup(unpm) {
-  if(unpm.config.cidr) {
-    unpm.middleware.push(check)
+    <li>description and source-code<pre class="apidocCodePre">function Package(unpm) {
+  if(!(this instanceof Package)) {
+    return new Package(unpm)
   }
 
-  function check(respond, route, unpm, done) {
-    var ip = respond.req.connection.remoteAddress
-    var allowed =  cidrCheck.in_range(ip, unpm.config.cidr)
-
-    if(allowed) {
-      return done()
-    }
-
-    unpm.log.info({ip: ip, message: &#x27;IP out of CIDR range&#x27;})
-
-    respond.res.writeHead(403, {
-      &#x27;Content-Type&#x27;: &#x27;application/json&#x27;
-    })
-
-    respond.res.end(JSON.stringify({
-      error: &#x27;forbidden&#x27;,
-      reason: &#x27;invalid ip&#x27;
-    }))
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.unpm.config" id="apidoc.module.unpm.config">module unpm.config</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.unpm.config.config" id="apidoc.element.unpm.config.config">
-        function <span class="apidocSignatureSpan">unpm.</span>config
-        <span class="apidocSignatureSpan">(config)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">config = function (config) {
-  if(config.configfile) {
-    add(JSON.parse(fs.readFileSync(path.join(config.configfile))))
-  }
-
-  add(JSON.parse(fs.readFileSync(path.join(__dirname, &#x27;config.json&#x27;))))
-
-  return config
-
-  function add(overrides) {
-    Object.keys(overrides).forEach(function(key) {
-      config[key] = config[key] === undefined ? overrides[key] : config[key]
-    })
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.unpm.handler" id="apidoc.module.unpm.handler">module unpm.handler</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.unpm.handler.handler" id="apidoc.element.unpm.handler.handler">
-        function <span class="apidocSignatureSpan">unpm.</span>handler
-        <span class="apidocSignatureSpan">(unpm)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">handler = function (unpm) {
-  return function handler(req, res) {
-    var route = unpm.router.match(req) || null
-    var log = unpm.log
-
-    var respond = responder(req, res, unpm)
-
-    res.on(&#x27;finish&#x27;, function() {
-      if(req.headers.authorization) {
-        req.headers.authorization = &#x27;Basic ~~removed~~&#x27;
-      }
-
-      var info = {
-        statusCode: res.statusCode,
-        method: req.method,
-        url: req.url
-      }
-
-      log.info(info)
-      log.debug({headers: req.headers})
-    })
-
-    if(!unpm.middleware || !unpm.middleware.length) {
-      return runRoute()
-    }
-
-    runMiddleware(unpm.middleware, respond, route, unpm, runRoute)
-
-    function runRoute(err) {
-      if(err) {
-        return respond(err)
-      }
-
-      if(!route) {
-        return respond.notFound()
-      }
-
-      route.fn(respond, route, unpm)
-    }
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.unpm.logging" id="apidoc.module.unpm.logging">module unpm.logging</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.unpm.logging.logging" id="apidoc.element.unpm.logging.logging">
-        function <span class="apidocSignatureSpan">unpm.</span>logging
-        <span class="apidocSignatureSpan">(config)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function logger(config) {
-  var bunyanOptions = {}
-  var logDir
-
-  if(!config.verbose &#x26;&#x26; !config.logDir &#x26;&#x26; !config.log) {
-    return noopLogger
-  }
-
-  bunyanOptions.name = &#x27;unpm&#x27;
-  bunyanOptions.streams = []
-
-  if(config.verbose) {
-    bunyanOptions.streams.push({
-      level: config.log || &#x27;info&#x27;,
-      stream: process.stdout
-    })
-  }
-
-  if(config.logDir || (config.log &#x26;&#x26; !config.verbose)) {
-    logDir = config.logDir || process.cwd()
-
-    bunyanOptions.streams.push({
-      level: config.log || &#x27;info&#x27;,
-      type: &#x27;rotating-file&#x27;,
-      period: &#x27;1d&#x27;,
-      count: 10,
-      path: path.join(logDir, &#x27;unpm.log&#x27;)
-    })
-  }
-
-  return bunyan.createLogger(bunyanOptions)
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.unpm.middleware" id="apidoc.module.unpm.middleware">module unpm.middleware</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.unpm.middleware.middleware" id="apidoc.element.unpm.middleware.middleware">
-        function <span class="apidocSignatureSpan">unpm.</span>middleware
-        <span class="apidocSignatureSpan">(middleware, respond, route, unpm, done)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function runMiddleware(middleware, respond, route, unpm, done) {
-  if(!middleware || !middleware.length) {
-    return done()
-  }
-
-  middleware[0](respond, route, unpm, function(err) {
-    if(err) {
-      return done(err)
-    }
-
-    runMiddleware(middleware.slice(1), respond, route, unpm, done)
+  var self = this
+  methods.forEach(function(method) {
+    self[method] = unpm.backend[method] &#x26;&#x26; unpm.backend[method].bind(unpm.backend)
   })
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -670,17 +256,471 @@
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.unpm.toString" id="apidoc.module.unpm.toString">module unpm.toString</a></h1>
+<h1><a href="#apidoc.module.unpm.Package.prototype" id="apidoc.module.unpm.Package.prototype">module unpm.Package.prototype</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.unpm.toString.toString" id="apidoc.element.unpm.toString.toString">
-        function <span class="apidocSignatureSpan">unpm.</span>toString
-        <span class="apidocSignatureSpan">()</span>
+        <a href="#apidoc.element.unpm.Package.prototype._setMeta" id="apidoc.element.unpm.Package.prototype._setMeta">
+        function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>_setMeta
+        <span class="apidocSignatureSpan">(name, meta, done)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>description and source-code<pre class="apidocCodePre">function _setMeta(name, meta, done) {
+  meta._rev = ~~meta._rev + 1
+  this.setMeta(name, meta, done)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  }
+
+  delete meta.versions[version]
+
+  meta[&#x27;dist-tags&#x27;].latest = latest_version(Object.keys(meta.versions))
+
+  if(Object.keys(meta.versions).length) {
+    self.<span class="apidocCodeKeywordSpan">_setMeta</span>(name, meta, removeTarball)
+  } else {
+    self.removeMeta(name, meta, removeTarball)
+  }
+})
+
+function removeTarball(err, data) {
+  if(err) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.unpm.Package.prototype.getVersionMeta" id="apidoc.element.unpm.Package.prototype.getVersionMeta">
+        function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>getVersionMeta
+        <span class="apidocSignatureSpan">(name, version, done)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getVersionMeta(name, version, done) {
+  this.getMeta(name, guard(function(meta) {
+    if(!meta) {
+      return done()
+    }
+
+    version = versionFromMeta(meta, version)
+
+    if(!version) {
+      done()
+    }
+
+    var versionMeta = meta.versions[version]
+
+    if(!versionMeta._id) {
+      versionMeta._id = name + &#x27;@&#x27; + version
+    }
+
+    done(null, versionMeta)
+  }, done))
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  var version = route.params.version
+  var name = route.params.name
+
+  if(!version) {
+return unpm.Package.getMeta(name, returnMeta)
+  }
+
+  unpm.Package.<span class="apidocCodeKeywordSpan">getVersionMeta</span>(name, version, returnMeta)
+
+  function returnMeta(err, meta) {
+if(err) {
+  return respond(err)
+}
+
+if(!meta) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.unpm.Package.prototype.getVersions" id="apidoc.element.unpm.Package.prototype.getVersions">
+        function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>getVersions
+        <span class="apidocSignatureSpan">(name, done)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getVersions(name, done) {
+  this.getMeta(name, guard(function(meta) {
+    if(!meta) {
+      return done()
+    }
+
+    done(null, Object.keys(meta.versions))
+  }, done))
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var version
+
+load(respond.req, guard(getVersions, respond))
+
+function getVersions(meta) {
+  var latest = meta[&#x27;dist-tags&#x27;].latest
+
+  unpm.Package.<span class="apidocCodeKeywordSpan">getVersions</span>(meta.name, function(err, versions) {
+    if(versions &#x26;&#x26; versions.indexOf(latest) !== -1) {
+      return respond.conflict()
+    }
+
+    unpm.Package.publish(meta, created)
+  })
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.unpm.Package.prototype.publish" id="apidoc.element.unpm.Package.prototype.publish">
+        function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>publish
+        <span class="apidocSignatureSpan">(meta, done)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function publish(meta, done) {
+  var tags = meta[&#x27;dist-tags&#x27;]
+  var name = meta.name
+  var fixedVersion
+  var filename
+  var version
+  var stream
+
+  try {
+    version = tags.latest
+    filename = name + &#x27;-&#x27; + version + &#x27;.tgz&#x27;
+    fixedVersion = version.replace(
+        /^[\d\.]*/
+      , version.match(/^[\d\.]*/)[0].split(&#x27;.&#x27;).map(function(val) {
+          return +val
+        }).join(&#x27;.&#x27;)
+    )
+    meta.versions[fixedVersion] = meta.versions[version]
+    stream = this.setTarball(name, fixedVersion)
+    stream.write(new Buffer(meta._attachments[filename].data, &#x27;base64&#x27;))
+    stream.end()
+  } catch(err) {
+    done(err)
+  }
+
+  delete meta._attachments
+  this.saveMeta(name, fixedVersion, tags, meta, done)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    var latest = meta[&#x27;dist-tags&#x27;].latest
+
+    unpm.Package.getVersions(meta.name, function(err, versions) {
+      if(versions &#x26;&#x26; versions.indexOf(latest) !== -1) {
+        return respond.conflict()
+      }
+
+      unpm.Package.<span class="apidocCodeKeywordSpan">publish</span>(meta, created)
+    })
+  }
+
+  function created(err, data) {
+    respond(err, 201, data)
+  }
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.unpm.Package.prototype.remove" id="apidoc.element.unpm.Package.prototype.remove">
+        function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>remove
+        <span class="apidocSignatureSpan">(name, done)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function remove(name, done) {
+  var self = this
+
+  self.getVersions(name, function(err, versions) {
+    if(err || !versions.length) {
+      return done(err)
+    }
+
+    var remaining = versions.length
+      , returned
+
+    versions.forEach(function(version) {
+      self.removeTarball(name, version, removed)
+    })
+
+    function removed(err) {
+      if(returned) {
+        return
+      }
+
+      if(err) {
+        returned = true
+
+        return done(err)
+      }
+
+      if(!--remaining) {
+        returned = true
+        self.removeMeta(name, done)
+      }
+    }
+  })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+module.exports.all = removeAll
+module.exports.some = removeSome
+module.exports.tarball = removeTarball
+
+function removeAll(respond, route, unpm) {
+  var name = route.params.name
+
+  unpm.Package.<span class="apidocCodeKeywordSpan">remove</span>(name, function(err, data) {
+    if(err) {
+      return respond(err)
+    }
+
+    respond(null, 200, data)
+  })
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.unpm.Package.prototype.removeVersion" id="apidoc.element.unpm.Package.prototype.removeVersion">
+        function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>removeVersion
+        <span class="apidocSignatureSpan">(name, version, done)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function removeVersion(name, version, done) {
+  var self = this
+
+  self.getMeta(name, function(err, meta) {
+    if(err) {
+      return done(err)
+    }
+
+    version = versionFromMeta(meta, version)
+
+    var versionMeta = meta.versions[version]
+
+    if(!version || !versionMeta) {
+      return done()
+    }
+
+    delete meta.versions[version]
+
+    meta[&#x27;dist-tags&#x27;].latest = latest_version(Object.keys(meta.versions))
+
+    if(Object.keys(meta.versions).length) {
+      self._setMeta(name, meta, removeTarball)
+    } else {
+      self.removeMeta(name, meta, removeTarball)
+    }
+  })
+
+  function removeTarball(err, data) {
+    if(err) {
+      return done(err)
+    }
+
+    self.removeTarball(name, version, function(err) {
+      done(err, data)
+    })
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  return respond.notFound()
+}
+
+var remaining = versions.length
+var returned = false
+
+versions.forEach(function(version) {
+  unpm.Package.<span class="apidocCodeKeywordSpan">removeVersion</span>(name, version, done)
+})
+
+function done(err, data) {
+  if(returned) {
+    return
+  }
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.unpm.Package.prototype.saveMeta" id="apidoc.element.unpm.Package.prototype.saveMeta">
+        function <span class="apidocSignatureSpan">unpm.Package.prototype.</span>saveMeta
+        <span class="apidocSignatureSpan">(name, version, tags, meta, done)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function saveMeta(name, version, tags, meta, done) {
+  var self = this
+
+  this.getMeta(name, function(err, module_meta) {
+    module_meta = module_meta || {&#x27;dist-tags&#x27;: {}, versions: {}, name: name}
+
+    var versions = Object.keys(module_meta.versions)
+
+    module_meta.versions[version] = meta.versions[version]
+    versions.push(version)
+
+    module_meta[&#x27;dist-tags&#x27;].latest = latest_version(versions)
+
+    Object.keys(tags).forEach(function(tag) {
+      if(!module_meta[&#x27;dist-tags&#x27;][tag]) {
+        module_meta[&#x27;dist-tags&#x27;][tag] = tags[tag]
+      }
+    })
+
+    if(versions[0] === version) {
+      for(var i = 0, l = metaKeys.length; i &#x3c; l; ++i) {
+        module_meta[metaKeys[i]] = meta[metaKeys[i]]
+      }
+    }
+
+    delete meta.readme
+
+    self._setMeta(name, module_meta, function(err) {
+      done(err, err ? null : module_meta)
+    })
+  })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  stream.write(new Buffer(meta._attachments[filename].data, &#x27;base64&#x27;))
+  stream.end()
+} catch(err) {
+  done(err)
+}
+
+delete meta._attachments
+this.<span class="apidocCodeKeywordSpan">saveMeta</span>(name, fixedVersion, tags, meta, done)
+}
+
+function saveMeta(name, version, tags, meta, done) {
+var self = this
+
+this.getMeta(name, function(err, module_meta) {
+  module_meta = module_meta || {&#x27;dist-tags&#x27;: {}, versions: {}, name: name}
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.unpm.unpublish" id="apidoc.module.unpm.unpublish">module unpm.unpublish</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.unpm.unpublish.all" id="apidoc.element.unpm.unpublish.all">
+        function <span class="apidocSignatureSpan">unpm.unpublish.</span>all
+        <span class="apidocSignatureSpan">(respond, route, unpm)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function removeAll(respond, route, unpm) {
+  var name = route.params.name
+
+  unpm.Package.remove(name, function(err, data) {
+    if(err) {
+      return respond(err)
+    }
+
+    respond(null, 200, data)
+  })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.unpm.unpublish.some" id="apidoc.element.unpm.unpublish.some">
+        function <span class="apidocSignatureSpan">unpm.unpublish.</span>some
+        <span class="apidocSignatureSpan">(respond, route, unpm)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function removeSome(respond, route, unpm) {
+  var name = route.params.name
+
+  load(respond.req, function(err, data) {
+    if(err) {
+      return respond(err)
+    }
+
+    unpm.Package.getVersions(name, compare)
+
+    function compare(err, versions) {
+      if(err) {
+        return respond(err)
+      }
+
+      remove(versions.map(missing).filter(Boolean))
+    }
+
+    function missing(version) {
+      return !data.versions[version] &#x26;&#x26; version
+    }
+  })
+
+  function remove(versions) {
+    if(!versions.length) {
+      return respond.notFound()
+    }
+
+    var remaining = versions.length
+    var returned = false
+
+    versions.forEach(function(version) {
+      unpm.Package.removeVersion(name, version, done)
+    })
+
+    function done(err, data) {
+      if(returned) {
+        return
+      }
+
+      if(err) {
+        returned = true
+
+        return respond(err)
+      }
+
+      if(!--remaining) {
+        returned = true
+        respond(null, 200, {ok: &#x27;updated package&#x27;})
+      }
+    }
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.unpm.unpublish.tarball" id="apidoc.element.unpm.unpublish.tarball">
+        function <span class="apidocSignatureSpan">unpm.unpublish.</span>tarball
+        <span class="apidocSignatureSpan">(respond, route, unpm)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function removeTarball(respond, route, unpm) {
+  respond(null, 200, {ok: &#x27;file removed&#x27;})
+}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
